@@ -22,7 +22,7 @@ class Day01Test {
 
     @Test
     fun testPart01_dummyData() {
-        assertEquals("", classUnderTest.run1(true))
+        assertEquals("142", classUnderTest.run1(true))
     }
 
     @Test
@@ -32,6 +32,6 @@ class Day01Test {
 
     @Test
     fun testPart02_dummyData() {
-        assertEquals("", classUnderTest.run2(true))
+        assertEquals("443", classUnderTest.run2(true))
     }
 }
